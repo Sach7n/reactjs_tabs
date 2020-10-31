@@ -12,7 +12,7 @@ const TabsDemo=()=> {
     'tech_specs': <TechSpecs/>,
     'reviews': <Reviews/>
   }
-  const [selectedTab, setSelectedTab] = useState('about');
+  const [selectedTab, setSelectedTab] = useState('overview');
 
   return (
     <>
