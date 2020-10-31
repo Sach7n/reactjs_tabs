@@ -1,0 +1,29 @@
+.tabs_1{
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 60px; 
+    background-color: rgb(285, 195, 108);   
+    color: black;
+}
+.tabs_1 div{
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.tabs_1 > div:nth-child(odd){
+    background-color: rgb(236, 102, 102);   
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: whitesmoke;
+}
+.tab_content{
+    height: 80vh;
+    width: 95%;
+    margin: 2% auto; 
+    box-shadow: 0 10px 22px rgba(0,0,0,0.20), 0 7px 9px rgba(0,0,0,0.18);
+    border-radius: 10px;
+
+}
